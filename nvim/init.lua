@@ -39,6 +39,9 @@ vim.opt.softtabstop = 2       -- Number of spaces to insert for a <Tab>
 vim.opt.shiftwidth = 2        -- Number of spaces to use for auto-indent
 vim.opt.expandtab = true      -- Use spaces instead of tabs
 
+-- Clipboard Integration
+vim.opt.clipboard = "unnamedplus" -- Use system clipboard
+
 -- =============================================================================
 -- 3. DEFINE AND LOAD PLUGINS WITH LAZY.NVIM
 -- =============================================================================
